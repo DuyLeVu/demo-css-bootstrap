@@ -26,6 +26,7 @@ html, body {
 .carousel {
     padding: 1rem;
 }
+
 .carousel-item active {
     position: relative;
 }
@@ -33,6 +34,7 @@ html, body {
 .carousel-inner img {
     width: 100%;
 }
+
 /*.carousel-caption {*/
 /*    position: absolute;*/
 /*    left: 60%;*/
@@ -53,19 +55,27 @@ html, body {
 /*}*/
 
 /*JUMBOTRON*/
-.jumbotron{
+.jumbotron {
     padding: 1rem;
     border-radius: 0;
     background-image: url("../img/blackfriday.png");
     background-size: cover;
     height: 600px;
+    background-position: center;
+    position: relative;
 }
-.jumbotron img{
-    width: 100%;
-}
+
+    .jumbotron .btn{
+        position: absolute;
+            bottom: 50%;
+    }
 /*a = 0.6 = "alpha" = " opacity"*/
-.welcome hr{
-    border-top: 2px solid rgba(62,44,100,0.6);
+.welcome hr {
+    border-top: 2px solid rgba(62, 44, 100, 0.6);
     width: 95%;
     margin-bottom: 2rem;
+}
+
+#product img{
+    width: 100%;
 }
